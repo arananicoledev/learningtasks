@@ -1,0 +1,44 @@
+<1DOCTYPE html>
+<html>
+<head>
+    <title>About us</title>
+    <link rel="stylesheet"href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>About Us</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about-us.html">About Us</a>
+    <a href="gallery.html">Galler</a>
+    <a href="mission-vission.html">Mission & Vission</a>
+    <a href="contact-us.html">Contact Us</a>
+</nav>
+
+<div class="container">
+
+    <img src="images/students.jpg" alt="Students">
+
+    <h2>Our History</h2>
+    <p>University of St Lasalle was established to provide students with quality education in a safe nurturing environment.</p>
+
+    <h2>Core Values</h2>
+
+    <ul>
+        <li>Excellence</li>
+        <li>Integrity</li>
+        <li>Respect</li>
+        <li>Service</li>
+    </ul>
+
+</div>
+
+<footer>
+    <p>2026 University of St Lasalle</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University of St Lasalle - Home</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+
+<header>
+    <h1>Schoo Gallery</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about-us.html">About Us</a>
+    <a href="gallery.html">Galler</a>
+    <a href="mission-vission.html">Mission & Vission</a>
+    <a href="contact-us.html">Contact Us</a>
+</nav>
+
+<div class="container">
+
+    <div class="gallery">
+        <img src="images/campus.jpg" alt="Campus">
+        <img src="images/classroom.jpg" alt="classroom">
+        <img src="images/event.jpg" alt="Event">
+        <img src="images/students.jpg" alt="Students">
+
+    </div>
+</div>
+
+<footer>
+    <p>2026 Univeristy of St Lasalle</p>
+</footer>
+
+</body>
+</html>

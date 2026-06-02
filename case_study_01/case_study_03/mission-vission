@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University of St Lasalle - Home</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+
+<header>
+    <h1>Mission and Vission</h1>
+</header>    
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about-us.html">About Us</a>
+    <a href="gallery.html">Galler</a>
+    <a href="mission-vission.html">Mission & Vission</a>
+    <a href="contact-us.html">Contact Us</a>
+</nav>
+
+<div class="container">
+
+    <h2>Mission</h2>
+
+    <p>To provide quality education that develops responsible, knowledgeable, and productive citizens.</p>
+
+</div>
+
+<footer>
+    <p>2026 Univeristy of St Lasalle</p>
+</footer>
+
+</body>
+</html>

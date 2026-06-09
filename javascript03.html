@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>.: javascript 03 :.</title>
+        <script>
+            function clickMe() {
+                Let firstNum = prompt("Enter 1st number : ");
+                Let secondNume = prompt("Enter 2nd number ; ");
+                Let sum = parseFloat(firstNum) + parseFloat(secondNum);
+
+                document.getElementById("result").innerHTML = "Sum of" + firstNum + "and" + secondNum + "=" + sum;
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="return clickMe ()">Click me to add 2 numbers</button>
+        <div id="result">Waiting for the answer</div>
+    </body>
+</html>

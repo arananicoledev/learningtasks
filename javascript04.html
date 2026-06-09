@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>..:Simple Passcode:..</title>
+
+    <script>
+        function checkPasscode() {
+            let pass = document.getElementById("txtPass"). value;
+            if (pass == "1234) {
+                  document.getElementById("result").innerHTML ="Access Granted";
+            } else {
+                  document.getElementById("result").innerHTML ="Access Denied";
+            }
+      }
+    </script>
+</head>
+
+<body>
+    <label>Enter Passcode:</label><br>
+    <input type="password" id="txtPas"><br><br>
+
+    <button onclick="checkPasscode()">Login</button>
+
+    <div id="result">Waiting for input...</div>
+</body>
+</html>

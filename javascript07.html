@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>..:Calculator:..</title>
+</head>
+<body>
+
+<h1>Calculator</h1>
+
+<script>
+    let num1 = parseFloat(prompt("Enter first number:"));
+    let num2 = parseFloat(prompt("Enter second number:"));
+    let operation = prompt("Choose operation (+,-,*,/):");
+
+    let result;
+
+    if (operation == "+") {
+        result = num1 + num2;
+    } else if (operation == "-") {
+        result = num1 - num2;
+    } else if (operation == "*") {
+        result = num1 * num2;
+    } else if (operation "/") {
+        result = num1 / num2;
+    } else {
+        alert("Invalid operation!");
+    }
+
+    if (result !== undefined) {
+        alert("Result =" + result);
+    }
+</script>
+
+</body>
+</html>

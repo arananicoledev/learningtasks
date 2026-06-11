@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>..:Length Calculator:..</title>
+
+    <script>
+          function areaOfSquare() {
+              let side = document.getElementById("sideOfSquare");
+
+              if (side.value != "") {
+                  let area = parseFloat(side.value) * parseFloat(side.value);
+                  alert("Formula: A = s2\nArea of Square = " + are);
+              } else {
+                  alert("Side of Square is empty!");
+                  side.focus();
+              }
+          }
+
+          function areaOfrectaangle() {
+              let length = document.getElementById("length");
+              let width = document.getElementbyid("width");
+
+              if (length.value != "" && width.value != "") {
+                  let area = parseFloat(length.value) * parseFloat(width.value);
+                  alert("Formula: A = 1 * w\nArea of Rectangle = " + area);
+              } else {
+                  alert("Please enter length and width!");
+                  length.focus();
+              }
+          }
+
+          function areaOfTriangle()
+              let base = document.getElementById("radius");
+
+              if (radius.value != "") {
+                  let area = Math.PI * parseFloat(radius.value) * parseFloat(radius.value);
+                  alert("Formula: A= πr2\nArea of Circle = " + area.toFixed(2));
+              } else { 
+                  alert("radius is empty!");
+                  radius.focus();
+              }
+      }
+          function areaOfTrapezoid() {
+              let base1 = document.getElementById("base1");
+              let base2 = document.getElementedById("base2");
+              let trapHeight = document.getElementedById("trapHeight");
+
+              if (base1.value != "" && base2.value != "" && trapHeight.value !== "") {
+                  let area( = (parseFloat(base1.value) + parsefloat (base2.value)) * parseFloat(trapHeight)) /2;
+                  alert("Formula: A = ((b1 +b2) * h") / 2\nArea of Trapezoid = " +area);
+              } else {
+                  alert("Please Complete all fields!");
+                  base1.focus();
+              }
+          }
+    </script>
+</head>
+
+<body>
+
+    <h1>Length Calculator</h1>
+
+    <p>Create a calculator for the following shapes:</p>
+
+    <ul>
+
+        <li><a href = "#square">Area of Square</a></li>
+        <li><a href = "#rectangle">Area of Rectangle</a></li>
+        <li><a href = "#triangle">Area of Triangle</a></li>
+        <li><a href = "#circle">Area of Circle</a></li>
+        <li><a href = "#trapezoid">Area of Trapezoid</a></li>
+    </ul>
+
+    <hr>
+
+    <h2 id="rectangle">Area of Square</h2>
+    <p>Formula: A s2</p>
+    Side:
+    <input type="number" id="sideOfSquare">
+    <button onclick="AreaOfSquare()">Compute</button>
+
+    <hr>
+
+    <h2 id="rectangle">Area of Rectangle </h2>
+    <p>Formula: A = 1 * W</p>
+    Length:
+    <input type="number" id="Length">
+    Width:
+    <input type="number" id="width">
+    <button onclick="areaOfRectangle()">Compute</button>
+
+    <hr>
+
+    <h2 id="triangle">Area of Triangle</h2>
+    <p>Formula: A = (b * h)/ 2</p>
+    Base:
+    <input type="number" id="height">
+    <button onclick="areaofTriangle()">Compute</button>
+
+    <hr>
+
+    <h2 id="trapezoid">Area of Trapezoid</h2>
+    <p>Formula: A = ((b1 + b2) * h) / 2</p>
+    Base 1:
+    <input type="number" id="base1">
+    Base 2:
+    <input type="number" id-"base2">
+    Height: 
+    <input type="number" id="trapHeight">
+    <button onclick="areaofTrapezoid()">Compute</button>
+
+</body>
+</html>
+  
+                  

@@ -1,0 +1,16 @@
+body
+{
+    background-color: white;
+}
+.wrapper
+{
+    width: 80%;
+    border: 1px #000 solid;
+    margin: auto;
+    min-height: 100px;
+}
+.header
+{
+   background-image: url(../images/patter.jpg);
+   min-height: 100px; 
+}
